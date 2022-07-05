@@ -1,0 +1,17 @@
+@import './function';
+@import './mixins';
+@import './colors';
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+main{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@import './header' ;
+@import './greenTitle';
+@import './Ventanilla';
+@import './caja';

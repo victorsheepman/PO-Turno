@@ -1,0 +1,45 @@
+.ventanilla{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding-left: 10%;
+    padding-right: 4%;
+    border-radius: 45px;
+    @include small{
+        width: 100%;
+        height: altura(85px);
+        background-color: $blue; 
+        margin-top: altura(42px);
+        &__divider{
+            width: 6px;
+            height:altura(88px);
+            background-color: #50c8bf;
+        }
+        h3{
+            font-size: altura(54px);
+            line-height:altura(155px);
+            color: $white;
+            font-weight: bold;
+            font-family: "Arial";
+        }
+    }
+    @include tablet{
+        width: 100%;
+        height: altura(85px);
+        background-color: $blue; 
+        margin-top: altura(42px);
+        &__divider{
+            width: 6px;
+            height:altura(88px);
+            background-color: #50c8bf;
+        }
+        h3{
+            font-size: altura(54px);
+            line-height:altura(155px);
+            color: $white;
+            font-weight: bold;
+            font-family: "Arial";
+        }
+    }
+    
+}
